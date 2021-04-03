@@ -1,0 +1,14 @@
+.login__container > img{
+    object-fit:contain;
+}
+
+.login{
+    display:grid;
+    place-items: center;
+
+}
+
+.login__container{
+    display:flex;
+    flex-direction: column !important;
+} 
