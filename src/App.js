@@ -19,6 +19,7 @@ import { auth,provider } from "./firebase";
 import {login, logout} from './features/counter/userSlice';
 import {useDispatch} from 'react-redux';
 
+
 function App() {
   const sendMessageIsOpen = useSelector(selectSendMessageIsOpen)
   const user = useSelector(SelectUser)
